@@ -1,19 +1,32 @@
 {
   "name": "geenen-mail-ses",
-  "version": "0.1.0",
-  "description": "Hapi geenen-mail ses plugin",
+  "version": "1.0.0",
+  "description": "Hapi geenen-mail ses service",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:GlennGeenen/geenen-mail-ses.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GlennGeenen/geenen-mail-ses/issues"
+  },
   "keywords": [
     "hapi",
     "mail",
     "ses",
-    "geenen-mail",
-    "plugin"
+    "geenen-mail"
   ],
   "main": "index.js",
   "scripts": {
     "test": "eslint index.js"
   },
-  "author": "Glenn Geenen <glenn@geenentijd.be>",
+  "author": {
+    "name": "Glenn Geenen",
+    "email": "glenn@geenentijd.be",
+    "url": "https://glenngeenen.be"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "2.x.x"

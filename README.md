@@ -1,6 +1,6 @@
 # Geenen Mail SES service
 
-This is a geenen-mail service for sending emails with SES as used by GeenenTijd.
+This is a geenen-mail service for sending emails with SES.
 
 ## Install
 
